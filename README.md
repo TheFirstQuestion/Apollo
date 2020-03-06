@@ -3,7 +3,7 @@
 _A combination looper and sequencer for live performances, all in your browser._
 
 
-# Installation
+## Installation
 Apollo must be served, rather than just opening the HTML file, due to how Chrome loads worker files. See [here](https://stackoverflow.com/questions/21408510/chrome-cant-load-web-worker).
 
 Simplest way to run locally:
@@ -12,12 +12,12 @@ Simplest way to run locally:
 * Visit http://localhost in the web browser of your choice.
 
 
-# txt File Syntax
+## txt File Syntax
 (For importing and exporting songs)
 ### First section: instruments
 * Each line: on-screen name (one word), input, instrument name (from http://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/names.json)
 * For microphones and other direct-playback devices, input should be "none"
-* Leave a line with three `***s` after this section
+* Leave a line with three `***`s after this section
 ### Second section: scheduling (for each instrument, in the same order as listed in the first section)
 * Each line: Number of bars, what to do in those bars
 * "what to do":
@@ -31,14 +31,14 @@ Simplest way to run locally:
 * A blank line following the ---s is optional and also acceptable
 
 
-# Adapted From
-https://github.com/cwilso/midi-synth
-https://github.com/gleitz/midi-js-soundfonts
-https://github.com/danigb/soundfont-player
-https://github.com/cwilso/metronome
+## Adapted From
+* https://github.com/cwilso/midi-synth
+* https://github.com/gleitz/midi-js-soundfonts
+* https://github.com/danigb/soundfont-player
+* https://github.com/cwilso/metronome
 
 
-# References
+## References
 https://en.wikipedia.org/wiki/General_MIDI#Percussion
 
 
