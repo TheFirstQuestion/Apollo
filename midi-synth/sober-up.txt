@@ -1,0 +1,36 @@
+Cello INPUT cello
+Viola INPUT viola
+Piano INPUT acoustic_grand_piano
+Guitar INPUT acoustic_guitar_nylon
+Drums INPUT percussion
+Tambourine INPUT percussion
+BackupVocal#1 INPUT none
+BackupVocal#2 INPUT none
+***
+2 0
+4 -1
+4 1
+90 R
+===
+10 R
+90 R
+===
+10 R
+90 R
+===
+6 R
+4 -1
+90 R
+===
+10 R
+90 R
+===
+10 R
+90 R
+===
+10 R
+90 R
+===
+10 R
+90 R
+---

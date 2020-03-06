@@ -1,0 +1,6 @@
+Piano INPUT acoustic_grand_piano
+***
+4 0
+4 -1
+4 1
+---

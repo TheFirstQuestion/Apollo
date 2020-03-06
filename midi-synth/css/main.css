@@ -1,0 +1,179 @@
+/*************************************** Big Sections **************************************/
+/* remove scrollbars */
+html {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+}
+
+.bar {
+    height: 70px;
+    position: fixed;
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+#topBar {
+    top: 0;
+    width: 100%;
+}
+
+#bottomBar {
+    bottom: 0;
+    width: 100%;
+}
+
+#mainSection {
+    margin-top: 130px;
+}
+
+.section {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#playLine {
+    height: 110%;
+    top: -5px;
+    bottom: -5px;
+    width: 5px;
+    position: fixed;
+    background-color: black;
+    margin: 0;
+    left: 170px;
+    z-index: 100;
+}
+
+
+/******************************************* Top Bar Stuff ***********************************/
+#playButtonWrapper {
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    margin-top: 4px;
+    padding: 0;
+}
+
+#shapeImg {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#logoText {
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 100px;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+
+/***************************************** Main Stuff *************************************/
+.instrumentBarWrapper {
+    height: 80px;
+    vertical-align: top;
+}
+
+.instrumentLabel {
+    position: fixed;
+    display: inline-block;
+    height: 70px;
+    background-color: purple;
+    width: 150px;
+    text-align: center;
+}
+
+.instrumentLabel h6 {
+    vertical-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: 100;
+}
+
+.instrument {
+    display: inline-block;
+    margin-left: 200px;
+    height: 60px;
+    background-color: dodgerblue;
+    min-width: 200000000px;
+    margin-top: 5px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.measure {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100%;
+    border-right: 1px solid black;
+    padding: 0;
+}
+
+.rest {
+    background-color: grey;
+}
+
+.mirror {
+    background-color: limegreen;
+}
+
+.record {
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+    border: 10px solid black;
+    height: calc(100% - 20px);
+    margin: 0;
+}
+
+.record .measure:first-child {
+    width: 90px;
+}
+
+.record .measure:last-child {
+    width: 90px;
+}
+
+
+
+
+
+/****************************************** Bottom Bar Stuff **********************************/
+#bottomBar select {
+    display: block;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+#bottomBar input {
+    display: block;
+    width: 147px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+#bottomBar button {
+    display: block;
+    width: 150px;
+    margin-top: 0;
+}
